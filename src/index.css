@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set height to fill the viewport */
+}
+
+.square {
+  background-color: #666666; /* Adjust color as needed */
+  margin: 0 auto; /* Center the square horizontally */
+}
+
+/* Add padding between input fields */
+.input-box fieldset div {
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+
+
+

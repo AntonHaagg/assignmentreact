@@ -1,0 +1,10 @@
+/* src/components/GridVisualization.css */
+
+.square {
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+.arrow {
+  color: limegreen !important;
+}

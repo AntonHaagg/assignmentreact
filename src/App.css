@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); /* Adjust as needed */
+  gap: 1px; /* Adjust gap between grid cells */
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  flex: 1;
+  height: 50px; /* Adjust cell height */
+  background-color: #ccc; /* Adjust cell color */
+  border: 1px solid #000; /* Adjust cell border */
+}
